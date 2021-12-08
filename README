@@ -1,0 +1,5 @@
+Instructions for running this program:
+1. edit dc_lgad.C
+2. sh test.sh
+3. cd ../root/dc_lgad/time
+4. root view.C
