@@ -1,4 +1,7 @@
 Instructions for running this program:
+0. mkdir build
+0.1. cmake ..
+0.2. make
 1. edit dc_lgad.C
 2. sh test.sh
 3. cd ../root/dc_lgad/time
