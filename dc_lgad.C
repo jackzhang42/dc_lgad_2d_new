@@ -192,7 +192,7 @@ int main(int argc, char * argv[]) {
 		output_gain << gain << "\n";
 
 		output_charge << nesum_real * ElementaryCharge << "\n";
-		sensor.ConvoluteSignals();
+	  if (useTransfer)	sensor.ConvoluteSignals();
 
 // write signals to files
 		if (writeSignal) {
