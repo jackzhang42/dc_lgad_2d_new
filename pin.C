@@ -106,11 +106,10 @@ int main(int argc, char * argv[]) {
 	
 	const std::string label = "strip";
 
+	double endtime = 5;
 	if (useTransfer) {
-		const double endtime = 20;
+		endtime = 20;
 		sensor.SetTransferFunction(transfer);
-	} else {
-		const double endtime = 5;
 	}
 	const int nSignalBins = 100000;
 	double tStep = endtime / nSignalBins;
